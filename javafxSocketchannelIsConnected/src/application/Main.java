@@ -109,7 +109,7 @@ public class Main extends Application  {
 					try {
 						ssChannel = ServerSocketChannel.open();
 						 ssChannel.configureBlocking(true);
-					        int port = 3003 ;
+					        int port = XXXX ;
 					        ssChannel.socket().bind(new InetSocketAddress(port));
 
 					      
